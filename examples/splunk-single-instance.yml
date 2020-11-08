@@ -1,0 +1,10 @@
+apiVersion: enterprise.splunk.com/v1alpha1
+kind: SplunkEnterprise
+metadata:
+  name: single
+spec:
+  config:
+    splunkPassword: helloworld456
+    splunkStartArgs: --accept-license
+  topology:
+    standalones: 1
